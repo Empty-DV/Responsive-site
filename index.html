@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <i class="fa-solid fa-magnifying-glass" id="search"></i>
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#click1">BAND</a></li>
+        <li><a href="#months2">TOUR</a></li>
+        <li><a href="#Empty">CONTACT</a></li>
+        <li id="dropdown">
+          <a href="#"
+            >MORE
+            <i class="fa-solid fa-caret-down" id="down"></i>
+            <div class="dropdown-content">
+              <a href="#">Merchandise</a>
+              <a href="#">Extras</a>
+              <a href="#">Media</a>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Automatic Slideshow Images -->
+    <div class="mySlides w3-display-container w3-center">
+      <img src="chicago.jpg" style="width: 100%" />
+      <div
+        class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small"
+      >
+        <h3>Los Angeles</h3>
+        <p><b>We had the best time playing at Venice Beach!</b></p>
+      </div>
+    </div>
+    <div class="mySlides w3-display-container w3-center">
+      <img src="la.jpg" style="width: 100%" />
+      <div
+        class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small"
+      >
+        <h3>New York</h3>
+        <p><b>The atmosphere in New York is lorem ipsum.</b></p>
+      </div>
+    </div>
+    <div class="mySlides w3-display-container w3-center">
+      <img src="los aneles.jpg" style="width: 100%" />
+      <div
+        class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small"
+      >
+        <h3>Chicago</h3>
+        <p><b>Thank you, Chicago - A night we won't forget.</b></p>
+      </div>
+    </div>
+    <div class="second-mega" id="click1">
+      <h3 class="The-band">THE BAND</h3>
+      <i class="music">We love music</i>
+      <p class="mega-parah">
+        We have created a fictional band website. Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+      <div class="mega-flex">
+        <div class="div1 a">
+          <div class="subdiv"><h4>Name</h4></div>
+          <img
+            style="width: 170px; border-radius: 6px"
+            src="bandmember.jpg"
+            alt=""
+          />
+        </div>
+        <div class="div2 a">
+          <div class="subdiv"><h4>Name</h4></div>
+          <img
+            style="width: 170px; border-radius: 6px"
+            src="bandmember.jpg"
+            alt=""
+          />
+        </div>
+        <div class="div3 a">
+          <div class="subdiv"><h4>Name</h4></div>
+          <img
+            style="width: 170px; border-radius: 6px"
+            src="bandmember.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <div class="mega3" id="months2">
+      <h3>TOUR DATES</h3>
+      <i>Remember to book your tickets</i>
+      <div class="divmonth">
+        <ul class="months">
+          <li>September <span>Sold out</span></li>
+          <li>October <span>Sold out</span></li>
+          <li>November <strong>3</strong></li>
+        </ul>
+      </div>
+      <div class="flex2">
+        <div class="box">
+          <img
+            style="width: 232px; background-color: black"
+            src="newyork.jpg"
+            alt=""
+          />
+          <div class="subbox">
+            <p class="subp1"><b>New York</b></p>
+            <p class="subp2">Fri 27 Nov 2016</p>
+            <p class="subp3">
+              Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+            </p>
+            <button class="button" onclick="document.getElementById('ticketModal').style.display='flex'">Buy Tickets</button>
+
+            
+          </div>
+        </div>
+        <div class="box">
+          <img style="width: 232px" src="paris.jpg" alt="" />
+          <div class="subbox">
+            <p class="subp1"><b>Paris</b></p>
+            <p class="subp2">Sat 28 Nov 2016</p>
+            <p class="subp3">
+              Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+            </p>
+            <button class="button" onclick="document.getElementById('ticketModal').style.display='flex'">Buy Tickets</button>
+          </div>
+        </div>
+        <div class="box">
+          <img style="width: 232px" src="sanfran.jpg" alt="" />
+          <div class="subbox">
+            <p class="subp1"><b>San Francisco</b></p>
+            <p class="subp2">Sun 29 Nov 2016</p>
+            <p class="subp3">
+              Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+            </p>
+            <button class="button" onclick="document.getElementById('ticketModal').style.display='flex'">Buy Tickets</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact" id="aarzoo">
+    <h2 class="x">
+      CONTACT
+    </h2>
+    <i class="y">
+      Fan? Drop a note!
+    </i>
+    <div class="subcontact">
+      <p><i class="fa-solid fa-location-dot" id="z" id="k"></i>Chicago, US</p>
+      <p><i class="fa-solid fa-phone"></i>Phone: +00 151515</p>
+      <p><i class="fa-solid fa-envelope"></i>Email: mail@mail.com</p>
+    </div>
+    <div class="subinput">
+      <input type="text" placeholder="Name" id="i1">
+      <input type="text" placeholder="Email" id="i2"><br>
+      <input type="text" placeholder="Message" id="i3">
+      <button style="display:block;background-color:black;color: aliceblue;position: absolute;right: 0%;font-size: 15px;padding: 7px 10px;text-align: center;margin-top: 5px;">SEND</button>
+    </div>
+  </div>
+  <div class="mapb">
+    <img src="map.jpg" alt="">
+  </div>
+  <footer id="Empty">
+    <div class="divfoot">
+      <span class="social-links"><i class="fa-brands fa-square-facebook"></i></span>
+    <span class="social-links"><i class="fa-brands fa-instagram"></i></span>
+    <span class="social-links"><i class="fa-brands fa-square-snapchat"></i></span>
+    <!-- <span class="social-links"></span>
+    <span class="social-links"></span>
+    <span class="social-links"></span> -->
+    <p class="fcontent">Powered by<a href="#" style="color: black;"> kamal</a></p>
+
+    </div>
+    
+  </footer>
+
+  <!-- This is a modal for tickets-->
+  <div id="ticketModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header"> 
+            <span class="close" onclick="document.getElementById('ticketModal').style.display='none'">×</span>
+            <h2><i class="fa fa-suitcase"></i> Tickets</h2>
+        </div>
+        <div class="modal-body">
+            <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+            <input class="input-box" type="number" min="1" placeholder="How many?">
+            <p><label><i class="fa fa-user"></i> Send To</label></p>
+            <input class="input-box" type="email" placeholder="Enter email">
+            <button class="btn btn-teal">PAY <i class="fa fa-check"></i></button>
+            <button class="btn btn-red" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+            <p class="help-text">Need <a href="#" style="color: blue;">help?</a></p>
+        </div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

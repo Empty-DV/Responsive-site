@@ -1,0 +1,616 @@
+* {
+  margin: 0;
+  padding: 0%;
+  font-family: sans-serif;
+  caret-color: transparent;
+}
+
+nav {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  z-index: 1;
+  background-color: black;
+  margin: 0%;
+  padding: 0%;
+  height: 46.5px;
+  width: 100%;
+}
+nav ul {
+  list-style-type: none;
+  margin-left: 0px;
+}
+nav ul li {
+  float: left;
+  line-height: 46.5px;
+  padding: 0px 25px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+nav ul li a .fa-solid {
+  color: white;
+}
+nav #search {
+  line-height: 46.5px;
+  float: right;
+  color: white;
+  width: 50px;
+  text-align: center;
+}
+
+nav ul li:hover {
+  background-color: #cccccc;
+  color: #000000;
+}
+
+nav ul li:hover a {
+  color: #000000;
+}
+
+nav ul li:hover #down {
+  color: #000000;
+}
+
+nav #search:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+#dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 10px 10px 25px 20px, black, 5px 5px 25px 20px, black;
+  width: 160px;
+  left: 0px;
+  padding: 0%;
+  margin: 0%;
+  height: auto;
+  display: none;
+}
+
+.dropdown-content a {
+  text-align: left;
+  padding-top: 0%;
+  padding-left: 20px;
+  display: block;
+  margin: 0%;
+  color: #000000;
+  font-size: 15px;
+}
+
+#dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #cccccc;
+}
+
+/* Style the slideshow container */
+.mySlides {
+  position: relative;
+  width: 100%;
+  display: none; /* Hide all images initially */
+  margin-bottom: 6px;
+  margin-top: 29px;
+}
+
+/* Style for each image in the slideshow */
+.mySlides img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the caption container */
+.w3-display-container {
+  position: relative;
+}
+
+/* Style the text inside the caption container */
+.w3-display-bottommiddle {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0); /* Semi-transparent background */
+  width: 100%;
+  padding: 20px 0;
+}
+
+/* Style the heading and paragraph */
+.w3-display-bottommiddle h3 {
+  font-size: 26px;
+  font-weight: 100;
+  margin: 0;
+}
+
+.w3-display-bottommiddle p {
+  font-size: 14px;
+  font-weight: normal;
+  margin: 10px 0 0;
+}
+
+/* Style for small screen sizes */
+.w3-hide-small {
+  display: block;
+}
+
+/* Add a fade effect for transitions between slides */
+@keyframes fade {
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+}
+/* Apply fade effect to the .mySlides */
+.mySlides {
+  animation: fade 10s infinite;
+}
+
+.second-mega {
+  height: 70%;
+  height: fit-content;
+  text-align: center;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.The-band {
+  padding-top: 80px;
+  font-size: 30px;
+  font-weight: lighter;
+  letter-spacing: 4px;
+  position: relative;
+}
+
+.music {
+  padding-top: 16px;
+  color: rgb(108, 104, 104);
+  display: block;
+}
+
+.mega-parah {
+  padding-top: 19px;
+  text-align: justify;
+  margin: 0 250px;
+  line-height: 20px;
+}
+
+.mega-flex {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  margin-top: 29px;
+}
+
+.div1 {
+  height: 170px;
+  width: 170px;
+}
+
+.div2 {
+  height: 170px;
+  width: 170px;
+}
+
+.div3 {
+  height: 170px;
+  width: 170px;
+}
+
+.a {
+  margin: 0 46px;
+}
+
+.subdiv {
+  margin-bottom: 15px;
+}
+
+.subdiv h4 {
+  font-weight: 100;
+}
+
+.mega3 {
+  height: 100%;
+  height: auto;
+  background-color: #000000;
+  text-align: center;
+}
+.mega3 h3 {
+  color: white;
+  letter-spacing: 5px;
+  font-weight: lighter;
+  font-size: 27px;
+  margin-bottom: 10px;
+  padding-top: 80px;
+}
+.mega3 i {
+  color: white;
+  padding-top: 39px;
+  color: grey;
+}
+
+.months {
+  display: block;
+  background-color: white;
+  width: 60%;
+  margin: auto;
+  text-align: left;
+  list-style-type: none;
+  margin-top: 40px;
+}
+.months li {
+  border-bottom: 1px solid grey;
+  font-size: larger;
+  font-weight: lighter;
+  color: grey;
+  font-family: "Times New Roman", Times, serif;
+  padding: 9px 16px;
+}
+.months li span {
+  background-color: red !important;
+  color: white !important;
+  margin-left: 16px;
+  padding: 0 5px;
+}
+.months li strong {
+  color: white;
+  background-color: #000000;
+  width: 27px;
+  float: right;
+  line-height: center;
+  text-align: center;
+  border-radius: 50%;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 60;
+  margin-right: 12px;
+}
+
+.flex2 {
+  display: flex;
+  margin-top: 50px;
+  padding: 0%;
+  background-color: #000000;
+  justify-content: center;
+}
+.flex2 .box {
+  height: 382px;
+  width: 232px;
+  background-color: white;
+  margin: 0 16px;
+  margin-bottom: 100px;
+  position: relative;
+}
+.flex2 .box .subp1 {
+  text-align: left;
+  padding: 12px 14px;
+}
+.flex2 .box .subp2 {
+  text-align: left;
+  padding: 12px 14px;
+  color: grey;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.flex2 .box .subp3 {
+  text-align: left;
+  padding: 12px 14px;
+  text-align: left;
+}
+.flex2 .box .subb1, .flex2 .box #openModal {
+  margin: 0%;
+  text-align: left;
+  padding: 12px 14px;
+  margin-left: -100px;
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+  position: relative;
+}
+.flex2 .box .subb1 a, .flex2 .box #openModal a {
+  position: relative;
+}
+
+.box img:hover {
+  filter: brightness(50%);
+}
+
+.box .subbox subb1:hover {
+  color: #000000;
+  background-color: #cccccc;
+  border: none;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  margin: 10% auto;
+  width: 30%;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  text-align: left;
+}
+
+/* Close Button */
+.close {
+  float: right;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: red;
+}
+
+/* Input Fields */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Buttons */
+#payBtn, .close-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#payBtn {
+  background-color: teal;
+  color: white;
+}
+
+#payBtn:hover {
+  background-color: darkcyan;
+}
+
+.close-btn {
+  background-color: red;
+  color: white;
+}
+
+.close-btn:hover {
+  background-color: darkred;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 14px 28px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+  background-color: #333;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 420px;
+  animation: scaleUp 0.3s ease-in-out;
+  text-align: center;
+  margin: auto;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes scaleUp {
+  from {
+    transform: scale(0.9);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.modal-header {
+  background-color: teal;
+  color: white;
+  text-align: center;
+  padding: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  position: relative;
+  border-radius: 12px 12px 0 0;
+}
+
+.close {
+  position: absolute;
+  right: 20px;
+  top: 12px;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.modal-body {
+  padding: 20px;
+  text-align: center;
+}
+
+.input-box {
+  width: 90%;
+  padding: 12px;
+  margin: 12px auto;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border 0.3s;
+  display: block;
+}
+
+.input-box:focus {
+  border: 1px solid teal;
+  outline: none;
+}
+
+.btn {
+  display: block;
+  width: 90%;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  margin: 14px auto;
+  font-size: 18px;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.btn-teal {
+  background-color: teal;
+  color: white;
+}
+
+.btn-red {
+  background-color: red;
+  color: white;
+}
+
+.help-text {
+  text-align: center;
+  margin-top: 12px;
+}
+
+.contact {
+  width: inherit;
+  height: 400px;
+  background-color: white;
+  padding-top: 70px;
+  text-align: center;
+  padding-top: 100px;
+}
+.contact .x {
+  font-size: 28px;
+  font-weight: 50;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 6px;
+  text-align: center;
+  margin-bottom: 19px;
+}
+.contact .y {
+  color: grey;
+  display: block;
+}
+.contact .subcontact {
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 265px;
+  line-height: 29px;
+  font-weight: 400;
+  font-size: large;
+  float: left;
+}
+.contact .subcontact .fa-location-dot::before, .contact .subcontact .fa-phone::before, .contact .subcontact .fa-envelope::before {
+  content: icon;
+  padding-right: 20px;
+}
+.contact .subcontact .fa-location-dot::before {
+  padding-right: 23px;
+}
+.contact .subinput {
+  float: right;
+  margin-top: 20px;
+  margin-right: 180px;
+  position: relative;
+}
+.contact .subinput #i1 {
+  width: 200px;
+  margin-right: 10px;
+}
+.contact .subinput #i2 {
+  width: 200px;
+}
+.contact .subinput #i3 {
+  width: 440px;
+}
+
+.mapb {
+  width: 100%;
+}
+.mapb img {
+  width: inherit;
+}
+
+footer {
+  width: 100%;
+  padding-top: 60px;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 60px;
+}
+footer .social-links {
+  opacity: 0.7;
+}
+footer .fcontent {
+  margin-top: 10px;
+  font-size: 16px;
+  opacity: 0.7;
+  cursor: default;
+}
+footer .social-links:hover {
+  opacity: 0.2;
+}
+
+/*# sourceMappingURL=main.css.map */
